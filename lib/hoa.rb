@@ -12,9 +12,8 @@ HoA = {
 
 
 def add_character(show, name)
-  # Write your implementation here
   
   HoA[show] << name
-  # Should return the array of the 'show' argument
+  
   HoA[show]
 end
